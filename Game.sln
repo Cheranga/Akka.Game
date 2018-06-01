@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.ActorModel", "Game.ActorModel\Game.ActorModel.csproj", "{EBA1502A-E0AE-467F-9FF9-62C818869289}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Web", "Game.Web\Game.Web.csproj", "{C3059976-7A08-4B87-8B00-C3BB3DE593C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EBA1502A-E0AE-467F-9FF9-62C818869289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA1502A-E0AE-467F-9FF9-62C818869289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA1502A-E0AE-467F-9FF9-62C818869289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA1502A-E0AE-467F-9FF9-62C818869289}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3059976-7A08-4B87-8B00-C3BB3DE593C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3059976-7A08-4B87-8B00-C3BB3DE593C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3059976-7A08-4B87-8B00-C3BB3DE593C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3059976-7A08-4B87-8B00-C3BB3DE593C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72C0192E-CF07-45A6-A865-ED868A79EFC1}
+	EndGlobalSection
+EndGlobal
