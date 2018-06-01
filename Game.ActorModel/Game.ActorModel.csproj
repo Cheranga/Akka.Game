@@ -52,6 +52,8 @@
   <ItemGroup>
     <Compile Include="Actors\GameControllerActor.cs" />
     <Compile Include="Actors\PlayerActor.cs" />
+    <Compile Include="Actors\SignalRBridgeActor.cs" />
+    <Compile Include="ExternalSystems\IGameEventsPusher.cs" />
     <Compile Include="Messages\AttackPlayerMessage.cs" />
     <Compile Include="Messages\JoinGameMessage.cs" />
     <Compile Include="Messages\PlayerHealthChangedMessage.cs" />

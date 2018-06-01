@@ -5,7 +5,7 @@
 <div>
     <h2>Join Game</h2>
     <form>
-        Name: <input required=""/>
+        Name: <input required="" />
         <button type="submit">Join Game</button>
     </form>
 </div>
@@ -21,3 +21,23 @@
     <h2>Other Players</h2>
     <p>Display of other players goes here</p>
 </div>
+
+@section scripts
+{
+    <script type="text/javascript">
+        
+        var gameHub = $.connection.gameHub;
+
+        gameHub.client.playerJoined = function(playerName, health) {
+            //TODO
+        }
+
+        gameHub.client.updatePlayerHealth = function(playerName, health) {
+            // TODO
+        }
+
+
+        $.connection.hub.start();
+
+    </script>
+}
