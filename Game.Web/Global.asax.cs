@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
+using Game.Web.Models;
 
 namespace Game.Web
 {
@@ -16,6 +17,11 @@ namespace Game.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            //
+            // Start the game actor system
+            //
+            GameActorSystem.Create();
         }
     }
 }
