@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Web", "Game.Web\Game.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.State", "Game.State\Game.State.csproj", "{ADA092DB-1F08-4AF1-AFF8-5D008BD8045D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.WindowsService", "Game.WindowsService\Game.WindowsService.csproj", "{2022D87C-FF24-4206-846F-EEB605637EB7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{ADA092DB-1F08-4AF1-AFF8-5D008BD8045D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADA092DB-1F08-4AF1-AFF8-5D008BD8045D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADA092DB-1F08-4AF1-AFF8-5D008BD8045D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2022D87C-FF24-4206-846F-EEB605637EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2022D87C-FF24-4206-846F-EEB605637EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2022D87C-FF24-4206-846F-EEB605637EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2022D87C-FF24-4206-846F-EEB605637EB7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
